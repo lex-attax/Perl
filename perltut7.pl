@@ -28,3 +28,25 @@ printf("Last character is %s\n", chop $animal);
 
 my $no_newline = "No NewLine\n";
 chomp $no_newline;
+
+printf("Upperase : %s \n", uc $long_string);
+printf("Lowercase : %s \n", lc $long_string);
+printf("1st Uppercase : %s \n", ucfirst $long_string);
+
+#replace spaced with ,
+#g means all
+#i = ignore case
+$long_string =~ s/ /, /g;
+
+say $long_string;
+
+my $two_times = "What I said is " x2;
+say $two_times;
+
+# @ = define array
+my @abcs = ('a' .. 'z');
+
+print join(", ", @abcs), "\n";
+
+my $letter = 'c';
+say "Next Letter ", ++$letter;
