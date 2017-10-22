@@ -1,5 +1,3 @@
-#yt:https://youtu.be/WEghIXs8F6c?t=1953
-
 use strict;
 use warnings;
 use diagnostics;
